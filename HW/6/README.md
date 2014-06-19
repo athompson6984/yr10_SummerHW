@@ -26,11 +26,15 @@ Once you can explain the solution you might try to write a computer program to s
 
 ####How many trips from shore to shore must the boat take?
 ```
-answer here
+100
 ```
-####Explain you algorithm here:
+####Explain your algorithm here:
 ```
-answer here
+Firstly, both of the boys cross in the boat. This is one trip.
+One boy returns in the boat - This is the second trip.
+One soldier rows across the boat, this is a third trip
+Then the other boy returns to the near shore, this is the 4th.
+We must loop these four trips for each soldier. This means we do 4*25 = 100 to find out how many trips there will be in total! 100 trips.
 ```
 
 ##Extension
@@ -38,11 +42,8 @@ Can you represent the algorithm for this problem using a computer program (any l
 eg you could show each step in the algorithm using text:
 
 ```
-Step 25       SSSSSScc..............SSSSSSSSSSSSSSSSSSS
+See the new file
 
-
-c = child
-S = solider
 ```       
 
 For text based programs like pytohn you should create a new file in you repository
